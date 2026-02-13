@@ -27,7 +27,7 @@ pip install tensorflow torch torchvision matplotlib numpy pillow
 
 Upload your dataset into Our Dataset/Train and Our Dataset/Test folders.
 
-TensorFlow Implementation
+**TensorFlow Implementation**
 
 Uses Conv2D and MaxPooling2D layers with Dense layers for classification.
 
