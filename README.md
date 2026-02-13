@@ -1,12 +1,12 @@
-Plant Disease Detection
+**Plant Disease Detection**
 
-A Python project to detect plant diseases from leaf images using TensorFlow/Keras and PyTorch.
+A Python project to detect plant diseases from leaf images using TensorFlow and PyTorch.
 
-Features
+**Features**
 
 Detect multiple plant diseases from leaf images.
 
-Implemented using TensorFlow/Keras and PyTorch.
+**Implemented using TensorFlow and PyTorch.**
 
 Supports training, validation, and prediction on new images.
 
@@ -20,7 +20,7 @@ git clone https://github.com/Pranjalchavanpatil/Plant-Disease-Detection.git
 cd Plant-Disease-Detection
 
 
-Install dependencies:
+**Install dependencies:**
 
 pip install tensorflow torch torchvision matplotlib numpy pillow
 
@@ -35,7 +35,7 @@ Train the model using model.fit() and validate on a subset.
 
 Predict disease on new images using model.predict().
 
-PyTorch Implementation
+**PyTorch Implementation**
 
 Custom CNNModel using nn.Conv2d, nn.MaxPool2d, and nn.Linear layers.
 
@@ -43,7 +43,7 @@ Train using DataLoader and CrossEntropyLoss.
 
 Predict on new images using torch.softmax to get class probabilities.
 
-Dataset
+**Dataset**
 
 12 classes of plant leaves with diseases and healthy samples.
 
